@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess</title>
+    <link rel="stylesheet" href="css/cascade.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+    <meta name="Author" content="Ekateryna Bugaychuk">
+    <meta name="Description" content="Demonstration of the black bishop's playing">
+    <meta name="Keywords" content="chess">
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="sweetalert.min.js"></script> 
+</head>
+<body>
+    
+    <div id="board">
+    <div id="click_me">PUSH ME!</div>
+       <table>
+           <tr id="8">
+               <td id="a8"></td>
+               <td id="b8"></td>
+               <td id="c8"></td>
+               <td id="d8"></td>
+               <td id="e8"></td>
+               <td id="f8"></td>
+               <td id="g8"></td>
+               <td id="h8"></td>
+           </tr>
+           <tr>
+               <td id="a7"></td>
+               <td id="b7"></td>
+               <td id="c7"><img id="slon" src="images/figures/black/slon.png" onclick="swal({title: 'Black Bishop'});"></td>
+               <td id="d7"></td>
+               <td id="e7"></td>
+               <td id="g7"></td>
+               <td id="h7"></td>
+               <td></td>
+           </tr>
+           <tr>
+               <td id="a6"></td>
+               <td id="b6"></td>
+               <td id="c6"></td>
+               <td id="d6"></td>
+               <td id="e6"></td>
+               <td id="f6"></td>
+               <td id="g6"></td>
+               <td id="h6"></td>
+           </tr>
+           <tr>
+               <td id="a5"></td>
+               <td id="b5"><img src="images/figures/black/peshka.png" onclick="swal({title: 'Black Pawn'});"></td>
+               <td id="c5"></td>
+               <td id="d5"></td>
+               <td id="e5"></td>
+               <td id="f5"><img src="images/figures/black/peshka.png" onclick="swal({title: 'Black Pawn'});"></td>
+               <td id="g5"></td>
+               <td id="h5"></td>
+           </tr>
+           <tr>
+               <td id="a4"></td>
+               <td id="b4"><img src="images/figures/black/slon.png" onclick="swal({title: 'Black Bishop'});"></td>
+               <td id="c4"></td>
+               <td id="d4"><img src="images/figures/white/peshka.png" onclick="swal({title: 'White Pawn'});"></td>
+               <td id="e4"><img src="images/figures/black/peshka.png" onclick="swal({title: 'Black Pawn'});"></td>
+               <td id="f4"><img id="peshka" src="images/figures/white/peshka.png" onclick="swal({title: 'White Pawn'});"></td>
+               <td id="g4"><img src="images/figures/black/korol.png" onclick="swal({title: 'Black король'});"></td>
+               <td id="h4"><img src="images/figures/black/peshka.png" onclick="swal({title: 'Black Pawn'});"></td>
+           </tr>
+           <tr>
+               <td id="a3"></td>
+               <td id="b3"><img src="images/figures/white/slon.png" onclick="swal({title: 'White Bishop'});"></td>
+               <td id="c3"></td>
+               <td id="d3"></td>
+               <td id="e3"><img src="images/figures/white/peshka.png" onclick="swal({title: 'White Pawn'});"></td>
+               <td id="f3"></td>
+               <td id="g3"></td>
+               <td id="h3"></td>
+           </tr>
+           <tr>
+               <td id="a2"></td>
+               <td id="b2"></td>
+               <td id="c2"></td>
+               <td id="d2"></td>
+               <td id="e2"></td>
+               <td id="f2"><img src="images/figures/white/peshka.png" onclick="swal({title: 'White Pawn'});"></td>
+               <td id="g2"></td>
+               <td id="h2"></td>
+           </tr>
+           <tr>
+               <td id="a1"></td>
+               <td id="b1"></td>
+               <td id="c1"></td>
+               <td id="d1"></td>
+               <td id="e1"><img src="images/figures/white/kon.png" onclick="swal({title: 'White Knight'});"></td>
+               <td id="f1"><img src="images/figures/white/korol.png" onclick="swal({title: 'White King'});"></td>
+               <td id="g1"></td>
+               <td id="h1"></td>
+           </tr>         
+       </table>
+    </div>
+</body>
+</html>
